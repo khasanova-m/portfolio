@@ -44,9 +44,11 @@ section {
 /* header */
 
 .header {
-    background: url('../img/header_img_bg.jpg') no-repeat center / cover fixed;
+    background: url('../img/header.jpg') no-repeat center / cover fixed;
     min-height: 100vh;
 }
+
+
 
 .navbar {
     background: #1e2020;
@@ -147,7 +149,8 @@ section {
 .header__title {
     text-transform: uppercase;
     font-size: 60px;
-    color: #fff;
+    color: #d3a90b;
+    text-shadow: 1px 1px 2px #646464;
     font-family: 'Product Sans', sans-serif;
     font-weight: 400;
     margin-bottom: 50px;
@@ -156,8 +159,10 @@ section {
 .header__text {
     font-family: 'Product Sans', sans-serif;
     font-size: 22px;
-    color: #fff;
+    color: #d3bb66;
+    text-shadow: 1px 1px 2px #646464;
     text-align: justify;
+    max-width: 580px;
 }
 
 .header__content {
@@ -203,7 +208,7 @@ section {
 
 .section-text {
     color: #fff;
-    font-size: 18px;
+    font-size: 20px;
     text-align: justify;
     margin-top: 30px;
     line-height: 1.5;
